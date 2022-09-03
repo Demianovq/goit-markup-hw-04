@@ -28,6 +28,12 @@ ul {
 	margin: 0;
 }
 
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
 .container {
 	width: 1200px;
 	padding-left: 15px;
@@ -110,6 +116,13 @@ ul {
 .hero {
 	background-color: #2f303a;
 	padding: 200px 0;
+	background-image: url(../images/imagesteam/imgheader.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .hero-title {
@@ -181,6 +194,10 @@ ul {
 	color: var(--main-color);
 	margin-bottom: 10px;
 	font-size: 14px;
+}
+
+.rules-text {
+	line-height: 1.71;
 }
 
 .rules-list {
@@ -255,7 +272,6 @@ ul {
 
 .address-list {
 	list-style: none;
-	margin-top: 30px;
 }
 
 .address-item {
@@ -368,6 +384,7 @@ address {
 	line-height: calc(36 / 18);
 	letter-spacing: 0.06em;
 	color: var(--main-color);
+	margin-bottom: 4px;
 }
 
 .projects-text {
