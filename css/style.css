@@ -103,6 +103,12 @@ img {
 	gap: 50px;
 }
 
+.contacts-item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
 .contacts-link {
 	font-weight: 500;
 	line-height: 1, 14;
@@ -205,6 +211,18 @@ img {
 	display: flex;
 	gap: 30px;
 }
+
+.icon-container {
+	width: 270px;
+	height: 120px;
+	background-color: #f5f4fa;
+	margin-bottom: 30px;
+}
+
+.rules-icon {
+	margin: 25px 100px;
+}
+
 /* Чем мы занимаемся */
 
 .work-section {
@@ -268,6 +286,75 @@ img {
 	background-color: #f5f4fa;
 	padding-top: 94px;
 	padding-bottom: 94px;
+}
+
+/* Иконки команды */
+
+.socials-list {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	margin-top: 16px;
+}
+
+.social-link {
+	width: 44px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-icon {
+	fill: #afb1b8;
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+	fill: var(--light-color);
+}
+
+.social-link:hover,
+.social-link:focus {
+	background-color: #2196f3;
+	border-radius: 50%;
+}
+
+/* Секция компании  */
+
+.clients-sect {
+	padding-top: 89px;
+	padding-bottom: 94px;
+}
+
+.company-list {
+	gap: 30px;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.company-link {
+	width: 170px;
+	height: 92px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #afb1b8;
+}
+
+.company-icon {
+	fill: #afb1b8;
+}
+
+.company-link:hover .company-icon,
+.company-link:focus .company-icon {
+	fill: #2196f3;
+}
+
+.company-link:hover,
+.company-link:focus {
+	border: 1px solid #2196f3;
 }
 
 .address-list {
