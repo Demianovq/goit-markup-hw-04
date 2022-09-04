@@ -117,6 +117,26 @@ img {
 	color: var(--second-color);
 }
 
+.mailto-icon {
+	fill: #757575;
+	margin-right: 10px;
+}
+
+.mailto-icon:hover,
+.mailto-icon:focus {
+	fill: #188ce8;
+}
+
+.smartphone-icon {
+	fill: #757575;
+	margin-right: 10px;
+}
+
+.smartphone-icon:hover,
+.smartphone-icon:focus {
+	fill: #188ce8;
+}
+
 /* Страница герой */
 
 .hero {
@@ -398,6 +418,54 @@ img {
 address {
 	font-style: normal;
 	margin-top: 20px;
+}
+
+.info-block {
+}
+
+.company-block {
+	margin-left: 70px;
+	margin-top: 10px;
+}
+
+.stylefooter-block {
+	display: flex;
+}
+
+.company-title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	color: var(--light-color);
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.company-soc-list {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	margin-top: 16px;
+}
+
+.company-soc-link {
+	width: 44px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 50%;
+}
+
+.company-soc-icon {
+	fill: var(--light-color);
+}
+
+.company-soc-link:hover,
+.company-soc-link:focus {
+	background-color: #2196f3;
+	border-radius: 50%;
 }
 
 /* ПОРТФОЛИО СТИЛИ */
